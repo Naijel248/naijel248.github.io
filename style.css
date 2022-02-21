@@ -1,8 +1,9 @@
 * {
+  background-color: #eeeeee;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Anonymous Pro', monospace;
 }
 
 a {
@@ -11,6 +12,7 @@ a {
 
 a:hover {
   color: red;
+  font-weight: 600;
 }
 
 .main {
@@ -28,4 +30,30 @@ a:hover {
   display: inline;
   margin-left: 50px;
   text-align: center;
+}
+
+.aboutme {
+  margin: 5% auto;
+  width: 80vw;
+  display: table;
+  height: 50em;
+}
+
+.aboutme div {
+  vertical-align: middle;
+  height: 80%;
+  width: 20vw;
+  display: table-cell;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.aboutme img {
+vertical-align: middle;
+  height: 35em;
+  border-radius: 100%;
+}
+
+.aboutme ul {
+  list-style: none;
 }
