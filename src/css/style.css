@@ -1,0 +1,110 @@
+body {
+  background-color: #0C151D;
+  color: #A3ABB2;
+  font-size: 22px;
+  font-family: 'Poppins';
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 800px;
+}
+
+.profile {
+  margin-top: 180px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 215px;
+}
+.profile__photo {
+  display: inline-block;
+  padding-right: 40px;
+}
+.profile__photo img{
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid #FFE071;
+}
+
+.profile__descrition {
+  display: inline-block;
+  width: 50%;
+}
+
+.profile__description__name {
+  font-size: 46px;
+  color: #f1f2f4;
+  font-weight: 500;
+}
+
+.profile__description__position {
+  margin-bottom: 20px;
+}
+
+.profile__description__social__item {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.facts__item {
+  width: 150px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 75px;
+}
+
+.buttons__CV {
+  display: inline-block;
+  line-height: 80px;
+  height: 80px;
+  width: 290px;
+  background-color: #FFE071;
+  color: #3D3D3D;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.buttons__contact {
+  display: inline-block;
+  line-height: 80px;
+  height: 80px;
+  width: 290px;
+  background-color: #171F26;
+  border-radius: 10px;
+  text-align: center;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects__items {
+  display: inline-block;
+  height: 226px;
+  width: 362px;
+  background-color: #171F26;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
