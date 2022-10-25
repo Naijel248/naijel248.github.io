@@ -67,7 +67,7 @@ body {
 }
 
 .buttons__item {
-  display: inline-block;
+  display: block;
   line-height: 80px;
   height: 80px;
   width: 290px;
@@ -79,6 +79,7 @@ body {
   background-color: #FFE071;
   color: #3D3D3D;
 }
+
 
 .contact {
   background-color: #171F26;
@@ -103,4 +104,36 @@ body {
   background-color: #171F26;
   border-radius: 10px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 768px ) {
+
+  .profile {
+    flex-direction: column;
+    align-content: center;
+    height: 330px;
+    text-align: center;
+  }
+
+  .profile__photo {
+    padding: 0px;
+  }
+
+  .facts {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .facts__item, .buttons__item {
+    margin-bottom: 30px;
+  }
+
+  
 }
