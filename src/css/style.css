@@ -110,7 +110,7 @@ body {
   margin-bottom: 30px;
 }
 
-@media (max-width: 768px ) {
+@media (max-width: 768px) {
 
   .profile {
     flex-direction: column;
